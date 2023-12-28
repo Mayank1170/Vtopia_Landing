@@ -15,6 +15,8 @@ import { Gradient } from "./Gradient_bg";
 import { Stars } from "./stars";
 import { url } from "inspector";
 import { wallet } from "./wallet";
+import { Widget } from "./Widget";
+import { Dashboard_bg } from "./Dashboard_bg";
 
 const Console: React.FC = () => {
   return (
@@ -68,7 +70,7 @@ const Console: React.FC = () => {
           </Text>
         </Stack>
       </Box>
-      <Flex alignItems={"center"} gap={4}>
+      <Center alignItems={"center"} gap={4} mt={"50px"}>
         <Box
           maxW="255px"
           h={"fit"}
@@ -122,6 +124,256 @@ const Console: React.FC = () => {
           <Image
             w={"auto"}
             h={48}
+            as={Widget}
+            alt="Svartifoss Waterfall"
+            borderRadius="xl"
+            objectFit="cover"
+            mx="auto"
+            mb={5}
+            mt={"-20px"}
+          />
+          <Flex my="4" alignItems={"center"} gap={1} background={"transparent"}>
+            <Heading
+              size="lg"
+              flex={"row"}
+              fontSize={"20px"}
+              color={"#f5f5f7"}
+              background={"transparent"}
+            >
+              Custom Layout
+            </Heading>
+          </Flex>
+          <Text color={"#86868b"} background={"transparent"} fontSize={"14px"}>
+            Choose your dynamic layout as per your trading style.
+          </Text>
+        </Box>
+        <Box
+          maxW="auto"
+          h={"fit"}
+          borderRadius={"12px"}
+          border={"1px solid rgba(169, 169, 169, 0.16)"}
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 50% 100%,rgba(245, 245, 247, .12), #010101 65%)",
+          }}
+          position={"relative"}
+        >
+          <Image
+            w={"100px"}
+            h={36}
+            as={Dashboard_bg}
+            alt="Svartifoss Waterfall"
+            borderRadius={"12px"}
+            objectFit="cover"
+            mx="auto"
+            // mb={5}
+            // mt={"-20px"}
+          />
+          <Flex
+          direction={"column"}
+          bottom={"10px"}
+            my="4"
+            pl={"20px"}
+            alignItems={"start"}
+            gap={1}
+            background={"transparent"}
+            position={"absolute"}
+            zIndex={99}
+          >
+            <Heading
+              size="lg"
+              flex={"row"}
+              fontSize={"20px"}
+              color={"#f5f5f7"}
+              background={"transparent"}
+            >
+              Modular Framework
+            </Heading>
+
+            <Text
+              color={"#86868b"}
+              background={"transparent"}
+              fontSize={"14px"}
+            >
+             Create the ultimate trading setup for all trading economics <br/>using our built-in or 3rd party modules.
+            </Text>
+          </Flex>
+        </Box>
+      </Center>
+      <Center alignItems={"center"} gap={4} mt={"50px"}>
+      <Box
+          maxW="auto"
+          h={"fit"}
+          borderRadius={"12px"}
+          border={"1px solid rgba(169, 169, 169, 0.16)"}
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 50% 100%,rgba(245, 245, 247, .12), #010101 65%)",
+          }}
+          position={"relative"}
+        >
+          <Image
+            w={"100px"}
+            h={36}
+            as={Dashboard_bg}
+            alt="Svartifoss Waterfall"
+            borderRadius={"12px"}
+            objectFit="cover"
+            mx="auto"
+            // mb={5}
+            // mt={"-20px"}
+          />
+          <Flex
+          direction={"column"}
+          bottom={"10px"}
+            my="4"
+            pl={"20px"}
+            alignItems={"start"}
+            gap={1}
+            background={"transparent"}
+            position={"absolute"}
+            zIndex={99}
+          >
+            <Heading
+              size="lg"
+              flex={"row"}
+              fontSize={"20px"}
+              color={"#f5f5f7"}
+              background={"transparent"}
+            >
+              Modular Framework
+            </Heading>
+
+            <Text
+              color={"#86868b"}
+              background={"transparent"}
+              fontSize={"14px"}
+            >
+             Create the ultimate trading setup for all trading economics <br/>using our built-in or 3rd party modules.
+            </Text>
+          </Flex>
+        </Box>
+        <Box
+          maxW="auto"
+          h={"fit"}
+          borderRadius={"12px"}
+          border={"1px solid rgba(169, 169, 169, 0.16)"}
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 50% 100%,rgba(245, 245, 247, .12), #010101 65%)",
+          }}
+          position={"relative"}
+        >
+          <Image
+            w={"100px"}
+            h={36}
+            as={Dashboard_bg}
+            alt="Svartifoss Waterfall"
+            borderRadius={"12px"}
+            objectFit="cover"
+            mx="auto"
+            // mb={5}
+            // mt={"-20px"}
+          />
+          <Flex
+          direction={"column"}
+          bottom={"10px"}
+            my="4"
+            pl={"20px"}
+            alignItems={"start"}
+            gap={1}
+            background={"transparent"}
+            position={"absolute"}
+            zIndex={99}
+          >
+            <Heading
+              size="lg"
+              flex={"row"}
+              fontSize={"20px"}
+              color={"#f5f5f7"}
+              background={"transparent"}
+            >
+              Modular Framework
+            </Heading>
+
+            <Text
+              color={"#86868b"}
+              background={"transparent"}
+              fontSize={"14px"}
+            >
+             Create the ultimate trading setup for all trading economics <br/>using our built-in or 3rd party modules.
+            </Text>
+          </Flex>
+        </Box>
+      </Center>
+      <Center alignItems={"center"} gap={4} mt={"50px"}>
+      <Box
+          maxW="auto"
+          h={"fit"}
+          borderRadius={"12px"}
+          border={"1px solid rgba(169, 169, 169, 0.16)"}
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 50% 100%,rgba(245, 245, 247, .12), #010101 65%)",
+          }}
+          position={"relative"}
+        >
+          <Image
+            w={"100px"}
+            h={36}
+            as={Dashboard_bg}
+            alt="Svartifoss Waterfall"
+            borderRadius={"12px"}
+            objectFit="cover"
+            mx="auto"
+            // mb={5}
+            // mt={"-20px"}
+          />
+          <Flex
+          direction={"column"}
+          bottom={"10px"}
+            my="4"
+            pl={"20px"}
+            alignItems={"start"}
+            gap={1}
+            background={"transparent"}
+            position={"absolute"}
+            zIndex={99}
+          >
+            <Heading
+              size="lg"
+              flex={"row"}
+              fontSize={"20px"}
+              color={"#f5f5f7"}
+              background={"transparent"}
+            >
+              Modular Framework
+            </Heading>
+
+            <Text
+              color={"#86868b"}
+              background={"transparent"}
+              fontSize={"14px"}
+            >
+             Create the ultimate trading setup for all trading economics <br/>using our built-in or 3rd party modules.
+            </Text>
+          </Flex>
+        </Box>
+        <Box
+          maxW="255px"
+          h={"fit"}
+          pl="6"
+          pb={"5px"}
+          borderRadius={"12px"}
+          border={"1px solid rgba(169, 169, 169, 0.16)"}
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 50% 100%,rgba(245, 245, 247, .12), #010101 65%)",
+          }}
+        >
+          <Image
+            w={"auto"}
+            h={48}
             as={wallet}
             alt="Svartifoss Waterfall"
             borderRadius="xl"
@@ -145,7 +397,45 @@ const Console: React.FC = () => {
             Follow wallets, check your ROI, list across multiple marketplaces.
           </Text>
         </Box>
-      </Flex>
+        <Box
+          maxW="255px"
+          h={"fit"}
+          pl="6"
+          pb={"5px"}
+          borderRadius={"12px"}
+          border={"1px solid rgba(169, 169, 169, 0.16)"}
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 50% 100%,rgba(245, 245, 247, .12), #010101 65%)",
+          }}
+        >
+          <Image
+            w={"auto"}
+            h={48}
+            as={Widget}
+            alt="Svartifoss Waterfall"
+            borderRadius="xl"
+            objectFit="cover"
+            mx="auto"
+            mb={5}
+            mt={"-20px"}
+          />
+          <Flex my="4" alignItems={"center"} gap={1} background={"transparent"}>
+            <Heading
+              size="lg"
+              flex={"row"}
+              fontSize={"20px"}
+              color={"#f5f5f7"}
+              background={"transparent"}
+            >
+              Custom Layout
+            </Heading>
+          </Flex>
+          <Text color={"#86868b"} background={"transparent"} fontSize={"14px"}>
+            Choose your dynamic layout as per your trading style.
+          </Text>
+        </Box>
+      </Center>
     </Box>
   );
 };
